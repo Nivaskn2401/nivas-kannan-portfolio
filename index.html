@@ -19,6 +19,7 @@
     <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-label="Toggle navigation" aria-expanded="false">☰</button>
     <nav class="nav" id="nav">
       <a href="#work">Work</a>
+      <a href="#photography">Photography</a>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#contact" class="nav-contact">Let’s talk <span>↗</span></a>
@@ -33,8 +34,12 @@
         <p class="hero-intro">I’m <strong>Nivas Kannan</strong> — a Computer Science & Design student exploring the space between visual design, digital experiences, and storytelling.</p>
         <a href="#work" class="round-link" aria-label="Explore selected work">↓</a>
       </div>
-      <div class="hero-art" role="img" aria-label="Abstract cinematic landscape with dark shapes and warm light">
-        <div class="art-orb"></div><div class="art-horizon"></div><div class="art-sun"></div>
+      <div class="hero-art hero-collage" aria-label="A collage of selected poster and editorial design work">
+        <div class="collage-tile collage-main" style="--tile-image:url('assets/projects/ganesh-chaturthi.webp')"><span>FESTIVAL CAMPAIGN</span></div>
+        <div class="collage-tile collage-tall" style="--tile-image:url('assets/projects/untitled-psd.webp')"><span>EVENT DESIGN</span></div>
+        <div class="collage-tile collage-small" style="--tile-image:url('assets/projects/engineers-day.webp')"><span>POSTER DESIGN</span></div>
+        <div class="collage-tile collage-wide" style="--tile-image:url('assets/projects/msd-magazine.webp')"><span>EDITORIAL / VISUAL STORYTELLING</span></div>
+        <div class="collage-shade"></div>
         <div class="art-caption"><span>SELECTED WORK / 2024—26</span><span>CHENNAI, INDIA</span></div>
       </div>
       <div class="scroll-note"><span></span> SCROLL TO EXPLORE</div>
@@ -66,7 +71,7 @@
           <div class="project-image project-image-real" style="--project-image:url('assets/projects/msd-magazine.webp')"><span class="image-label">05 — EDITORIAL DESIGN</span></div>
           <div class="project-meta"><div><h3>The Captain Who Never Panicked</h3><p>Sports magazine · Editorial layout · Visual storytelling</p></div><span class="arrow">↗</span></div>
         </a>
-        <a class="project-card" href="#contact">
+        <a class="project-card" href="#photography">
           <div class="project-image image-photo"><span class="image-label">06 — PHOTOGRAPHY</span><div class="photo-sun"></div><div class="photo-mountain"></div><span class="photo-caption">FRAMES OF STUDIO SEVEN</span></div>
           <div class="project-meta"><div><h3>Photography & Visual Stories</h3><p>Frames of Studio Seven · Photography · Editing</p></div><span class="arrow">↗</span></div>
         </a>
@@ -74,8 +79,37 @@
       <p class="note">SELECTED WORK · ORIGINAL PROJECT ARTWORK · MORE PROJECTS COMING SOON</p>
     </section>
 
+
+    <section class="photography-section section-wrap" id="photography">
+      <div class="section-heading">
+        <div><span class="eyebrow">02 / BEHIND THE LENS</span><h2>Light, mood &amp; <em>moments.</em></h2></div>
+        <p>A few frames from my photography practice — skies, streets, weather and everyday scenes seen through my lens.</p>
+      </div>
+      <div class="photo-gallery">
+        <a class="gallery-item gallery-feature" href="assets/photography/moonlit-city.png" target="_blank" rel="noopener" aria-label="View moonlit city photograph">
+          <img src="assets/photography/moonlit-city.png" alt="Moonlit night sky above a city and tree line" loading="lazy"><span class="gallery-caption"><small>01 / NIGHTSCAPE</small>Moonlit city</span>
+        </a>
+        <a class="gallery-item" href="assets/photography/rainy-road.png" target="_blank" rel="noopener" aria-label="View rainy road photograph">
+          <img src="assets/photography/rainy-road.png" alt="Rainy tree-lined road with reflections" loading="lazy"><span class="gallery-caption"><small>02 / AFTER THE RAIN</small>Quiet roads</span>
+        </a>
+        <a class="gallery-item" href="assets/photography/sunset-clouds.png" target="_blank" rel="noopener" aria-label="View sunset clouds photograph">
+          <img src="assets/photography/sunset-clouds.png" alt="Pink and orange sunset clouds" loading="lazy"><span class="gallery-caption"><small>03 / SKY STUDY</small>Last light</span>
+        </a>
+        <a class="gallery-item" href="assets/photography/indian-flag.png" target="_blank" rel="noopener" aria-label="View Indian flag photograph">
+          <img src="assets/photography/indian-flag.png" alt="Indian national flag raised above green trees" loading="lazy"><span class="gallery-caption"><small>04 / DETAILS</small>A familiar symbol</span>
+        </a>
+        <a class="gallery-item" href="assets/photography/golden-hour.png" target="_blank" rel="noopener" aria-label="View golden hour photograph">
+          <img src="assets/photography/golden-hour.png" alt="Golden hour clouds above a green city tree line" loading="lazy"><span class="gallery-caption"><small>05 / GOLDEN HOUR</small>Between day &amp; dusk</span>
+        </a>
+        <a class="gallery-item gallery-wide" href="assets/photography/stormy-city.png" target="_blank" rel="noopener" aria-label="View storm clouds photograph">
+          <img src="assets/photography/stormy-city.png" alt="Heavy storm clouds gathering above greenery and city buildings" loading="lazy"><span class="gallery-caption"><small>06 / WEATHER STUDY</small>Before the rain</span>
+        </a>
+      </div>
+      <div class="photography-footer"><span>FRAMES OF STUDIO SEVEN</span><a href="https://www.instagram.com/frames_of_studio_seven/" target="_blank" rel="noreferrer">MORE FRAMES ON INSTAGRAM ↗</a></div>
+    </section>
+
     <section class="about-section section-wrap" id="about">
-      <span class="eyebrow">02 / A LITTLE ABOUT ME</span>
+      <span class="eyebrow">03 / A LITTLE ABOUT ME</span>
       <div class="about-layout">
         <h2>Curious by nature.<br><em>Creative by choice.</em></h2>
         <div class="about-copy">
@@ -92,7 +126,7 @@
 
     <section class="skills-section section-wrap" id="skills">
       <div class="section-heading">
-        <div><span class="eyebrow">03 / MY TOOLKIT</span><h2>Things I <em>work with.</em></h2></div>
+        <div><span class="eyebrow">04 / MY TOOLKIT</span><h2>Things I <em>work with.</em></h2></div>
         <p>A flexible toolkit for moving from a rough idea to a finished visual or digital experience.</p>
       </div>
       <div class="skills-list">
@@ -104,7 +138,7 @@
     </section>
 
     <section class="contact-section section-wrap" id="contact">
-      <span class="eyebrow">04 / MAKE SOMETHING GOOD</span>
+      <span class="eyebrow">05 / MAKE SOMETHING GOOD</span>
       <h2>Have an idea?<br><em>Let’s bring it to life.</em></h2>
       <p>Open to creative collaborations, design opportunities, and interesting projects.</p>
       <a class="contact-button" href="mailto:nivaskannan.r.2025.csd@rajalakshmi.edu.in">nivaskannan.r.2025.csd@rajalakshmi.edu.in <span>↗</span></a>
